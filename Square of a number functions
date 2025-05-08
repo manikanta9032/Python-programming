@@ -1,0 +1,11 @@
+# python program to find the square number using functions
+
+def square(n):
+    s=n**2
+    print("Square of a number =",s)
+n=int(input("Enter the number:"))
+square(n)
+
+output:
+Enter the number:2
+Square of a number = 4
