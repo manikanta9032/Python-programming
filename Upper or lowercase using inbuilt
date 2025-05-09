@@ -1,0 +1,13 @@
+# python program to find upper or lower using isupper and islower
+
+c=input("Enter the character:")
+if c.isupper():
+    print("Uppercase alphabet")
+elif c.islower():
+    print("Lowercase alphabet")
+else:
+    print("Not an alphabet")
+
+output:
+Enter the character:d
+Lowercase alphabet
